@@ -1,0 +1,42 @@
+
+
+#Main {
+    height: 200%;
+    margin: 50px;
+}
+
+.onee {
+    border: 3px solid aquamarine;
+    border-radius: 50px;
+    width: 160px;
+    background-color: white;
+    font-size: 150%;
+    color: aquamarine;
+    font-weight: bold;
+    text-align:center;
+}
+
+.two {
+    font-size: 200%;
+    background-color: aquamarine;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+    border: none;
+
+
+
+}
+
+.three {
+    color: white;
+    background-color: blue;
+    font-size: 160%;
+    width: 270px;
+    padding: 10px 20px;
+    text-align:center;
+    box-shadow: 8px 4px black;
+    border: 4px solid black;
+    
+}
