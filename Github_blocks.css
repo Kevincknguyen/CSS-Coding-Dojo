@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    width: 1000px;
+}
+
+img.Octo {
+    height: 200px;
+}
+
+div {
+    margin: 20px;
+    width: 1000px;
+    display:flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.one {
+    background-color: blue
+}
+
+.two {
+    background-color: blueviolet;
+}
+
+.three {
+    background-color: white;
+}
+
+body {
+    background-color: gray;
