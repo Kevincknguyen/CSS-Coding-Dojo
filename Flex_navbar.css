@@ -1,26 +1,39 @@
+* {
+    font-family:Robotoblack;
+    color:white;
+}
+
+@font-face {
+    font-family: Robotoblack;
+    src: url(Roboto-Black.ttf);
+}
+
 div {
     background-color: rgb(109, 101, 101);
-    font-family: Roboto-Black;
-    width: 1000px;
     border: 10px solid black;
+    width:900px;
 }
+
+
+/* ???????*/
 
 .nav-title {
-    font-family: cursive;
-    display:inline-block
+    margin: 25px;
 }
-.nav-links{
+
+ul {
+    display:flex;
+    align-items: center;
     justify-content:flex-end;
-    margin: 30px;
     list-style-type: none;
-
-
-.active {
-    font-family: sans-serif;
+    gap: 30px;
+    margin: 10px;
 }
+
+
+/* ???????*/
 
 .btn {
-    color: white;
     background-color:aqua;
     box-shadow: 3px 2px black;
     border: 3px solid black;
