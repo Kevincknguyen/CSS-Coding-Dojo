@@ -1,0 +1,19 @@
+
+.row {
+    display:flex;
+    align-items: center;
+}
+
+.col {
+    flex:1;
+    padding:30px;
+    background-color: turquoise;
+    height:50px;
+}
+
+.col-2 {
+    flex: 2;
+    padding: 30x;
+    height:50px;
+    background-color:violet
+}
