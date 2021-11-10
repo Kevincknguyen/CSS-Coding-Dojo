@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding:0px 0px 0px 0px;
+    font-weight:700;
+}
+#message {
+    width: 800px;
+    height: 400px;
+    background-color: aquamarine;
+    margin: 300px; 
+    border: solid black;
+}
+
+.header {
+    background-color:white;
+    height: 100px;
+}
+
+.Pic {
+    height:120px;
+    width: 120px;
+    position:absolute;
+    top: 350px;
+    left: 350px;
+}
+img {
+    height: 15px;
+    width: 15px;
+}
+
+.content {
+    position: absolute;
+    top: 500px;
+    left: 350px;
+}
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+
+p.one {
+    padding-top: 11px;
+}
+p.two {
+    padding-bottom: 11px;
+}
