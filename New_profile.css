@@ -1,0 +1,194 @@
+
+/* Doc wide changes */
+* {
+    font-size: 27px;
+    text-decoration:none;
+    font-family:Robotoblack;
+}
+
+@font-face {
+    font-family: Robotoblack;
+    src: url(Roboto-Black.ttf);
+}
+img {
+    height : 40px;
+    width : 40px;
+}
+
+div.content img.imgone {
+    height: 27px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+div.content img.imgtwo {
+    height:20px;
+    width: 20px;
+}
+/*------------------ Nav bar changes------------------*/
+
+
+.nav {
+    background-color: black;
+    border: 10px solid black;
+    display:flex;
+    justify-content:space-around;
+    color:white;
+    align-items:center;
+}
+.nav-title {
+    margin: 25px;
+}
+.nav-links {
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+    margin: 10px;
+}
+
+a.active {
+    color:white;
+    
+    text-decoration: none;
+    align-items:center;
+}
+
+ul {
+    color:white;
+    align-items:center;
+}
+.btn {
+    background-color:aqua;
+    box-shadow: 3px 2px black;
+    border: 3px solid black;
+    font-family:cursive;
+    align-items:center;
+}
+
+h1 {
+    font-size: 50px;
+    align-items: center;
+}
+/* -----------Nav bar changes end---------*/
+
+/*------------Body changes---------------*/
+.Parent {
+    display:flex;
+    justify-content: space-around;
+}
+/*---------------------------Middle bar------------------*/
+
+.bar {
+    background-color: blue;
+    height: 140px;
+}
+.majorone {
+    flex: 2;
+    margin: 10px 50px 0px 300px;
+}
+h2 {
+    font-size: 60px;
+}
+
+
+.Pic {
+    height:150px;
+    width: 150px;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+
+.leftone, .lefttwo, .rightone, .righttwo {
+    width: 800px;
+    margin: 20px 30px 30px 30px;
+    border: 5px solid gray;
+}
+
+div.content p.one, div.content p.two {
+    margin: 0px;
+    padding:0px;
+}
+
+
+div.rightone {
+    height: 200px;
+}
+
+
+div.subheading {
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+span {
+    color:black;
+    background-color: grey;
+    border-width: 37px;
+    border-radius: 100px;
+}
+
+.subheading {
+    padding: 10px 5px 5px 10px;
+}
+
+p.Educationone, p.Educationtwo, p.Educationthree {
+    padding:4px;
+    margin: 0px;
+    padding-left: 15px;
+}
+
+p.Educationone {
+    font-size: 40px;
+}
+
+p.Educationtwo {
+    font-size: 20px;
+}
+
+div.content {
+    padding-left: 20px;
+}
+/* ---------------Right Bar Changes ----------------*/
+
+.majortwo {
+    flex:1;
+    margin: 10px 200px 0px 0px;
+    
+}
+.rightone, .righttwo {
+    Width: 400px;
+}
+
+.rightone {
+    height: 150px;
+}
+
+.righttwo {
+    height: 390px;
+}
+div.View {
+    border-top: solid grey;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 5px;
+
+
+}
+
+div.requests {
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+.people {
+    padding: 10px 10px 10px 10px;
+    display:flex;
+    align-items: center;
+}
+
+

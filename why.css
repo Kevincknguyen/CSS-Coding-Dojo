@@ -1,0 +1,38 @@
+
+.zero {
+   
+}
+
+.one {
+    height: 200px;
+    background-color: aqua;
+    display:flex;
+}
+
+.two {
+    height: 2000px;
+    background-color: black;
+    color: White;
+    display:flex;
+    justify-content:flex-end;
+    
+}
+
+.three {
+    background-color: cadetblue;
+    flex: 2;
+    margin: 10px 50px 0px 450px;
+}
+
+.four {
+    background-color: blueviolet;
+    flex: 1;
+    margin: 10px 100px 0px 0px;
+}
+
+
+.p {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}

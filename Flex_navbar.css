@@ -8,10 +8,11 @@
     src: url(Roboto-Black.ttf);
 }
 
-div {
+.nav {
     background-color: rgb(109, 101, 101);
     border: 10px solid black;
-    width:900px;
+    display:flex;
+    justify-content: space-between;
 }
 
 
@@ -21,7 +22,7 @@ div {
     margin: 25px;
 }
 
-ul {
+.nav-links {
     display:flex;
     align-items: center;
     justify-content:flex-end;
